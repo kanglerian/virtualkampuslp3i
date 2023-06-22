@@ -1,0 +1,1238 @@
+{
+  "panoramas": [
+    {
+      "name": "depankampus",
+      "text": "Depan Kampus",
+      "infospots": [
+        {
+          "position": {
+            "x": 900,
+            "y": -100,
+            "z": -1000
+          },
+          "size": 80,
+          "text": "ATM Center",
+          "target": "atmcenter"
+        },
+        {
+          "position": {
+            "x": 1000,
+            "y": -50,
+            "z": 100
+          },
+          "size": 80,
+          "text": "Kampus",
+          "target": "kampus"
+        }
+      ],
+      "position": 1,
+      "id": 1
+    },
+    {
+      "name": "atmcenter",
+      "text": "ATM Center",
+      "infospots": [
+        {
+          "position": {
+            "x": -1000,
+            "y": -200,
+            "z": 0
+          },
+          "size": 80,
+          "text": "Depan Kampus",
+          "target": "depankampus"
+        }
+      ],
+      "position": 2,
+      "id": 2
+    },
+    {
+      "name": "kampus",
+      "text": "Kampus",
+      "infospots": [
+        {
+          "position": {
+            "x": 2000,
+            "y": -100,
+            "z": -800
+          },
+          "size": 150,
+          "text": "Depan Gedung",
+          "target": "depangedung"
+        },
+        {
+          "position": {
+            "x": 2000,
+            "y": -50,
+            "z": 500
+          },
+          "size": 150,
+          "text": "Samping Gedung",
+          "target": "sampinggedung"
+        }
+      ],
+      "position": 3,
+      "id": 3
+    },
+    {
+      "name": "depangedung",
+      "text": "Depan Gedung",
+      "infospots": [
+        {
+          "position": {
+            "x": 900,
+            "y": 50,
+            "z": 350
+          },
+          "size": 50,
+          "text": "Front Office",
+          "target": "frontoffice"
+        },
+        {
+          "position": {
+            "x": -300,
+            "y": -250,
+            "z": 5000
+          },
+          "size": 300,
+          "text": "Kampus",
+          "target": "kampus"
+        }
+      ],
+      "position": 4,
+      "id": 4
+    },
+    {
+      "name": "sampinggedung",
+      "text": "Samping Gedung",
+      "infospots": [
+        {
+          "position": {
+            "x": 1200,
+            "y": 0,
+            "z": -50
+          },
+          "size": 80,
+          "text": "Depan Lift",
+          "target": "depanlift"
+        },
+        {
+          "position": {
+            "x": 100,
+            "y": -50,
+            "z": -1200
+          },
+          "size": 100,
+          "text": "Kampus",
+          "target": "kampus"
+        },
+        {
+          "position": {
+            "x": 600,
+            "y": -50,
+            "z": 1200
+          },
+          "size": 80,
+          "text": "Depan Masjid",
+          "target": "depanmasjid"
+        },
+        {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 1500
+          },
+          "size": 80,
+          "text": "Samping Masjid",
+          "target": "sampingmasjid"
+        }
+      ],
+      "position": 5,
+      "id": 5
+    },
+    {
+      "name": "belakanggedung",
+      "text": "Belakang Gedung",
+      "infospots": [
+        {
+          "position": {
+            "x": -900,
+            "y": -100,
+            "z": -100
+          },
+          "size": 80,
+          "text": "Depan Workshop",
+          "target": "depanworkshop"
+        },
+        {
+          "position": {
+            "x": -200,
+            "y": -100,
+            "z": -1000
+          },
+          "size": 80,
+          "text": "Depan Masjid",
+          "target": "depanmasjid"
+        },
+        {
+          "position": {
+            "x": 2000,
+            "y": 0,
+            "z": 0
+          },
+          "size": 120,
+          "text": "Lorong C&P",
+          "target": "lorongcnp"
+        }
+      ],
+      "position": 6,
+      "id": 6
+    },
+    {
+      "name": "depanmasjid",
+      "text": "Depan Masjid",
+      "infospots": [
+        {
+          "position": {
+            "x": 1000,
+            "y": -100,
+            "z": -800
+          },
+          "size": 80,
+          "text": "Depan Workshop",
+          "target": "depanworkshop"
+        },
+        {
+          "position": {
+            "x": 0,
+            "y": -100,
+            "z": -800
+          },
+          "size": 100,
+          "text": "Belakang Gedung",
+          "target": "belakanggedung"
+        },
+        {
+          "position": {
+            "x": -1500,
+            "y": -50,
+            "z": 0
+          },
+          "size": 80,
+          "text": "Samping Gedung",
+          "target": "sampinggedung"
+        },
+        {
+          "position": {
+            "x": 900,
+            "y": -50,
+            "z": 50
+          },
+          "size": 70,
+          "text": "Masjid",
+          "target": "masjid"
+        },
+        {
+          "position": {
+            "x": 1000,
+            "y": -50,
+            "z": 800
+          },
+          "size": 70,
+          "text": "Samping Masjid",
+          "target": "sampingmasjid"
+        }
+      ],
+      "position": 7,
+      "id": 7
+    },
+    {
+      "name": "masjid",
+      "text": "Masjid",
+      "infospots": [
+        {
+          "position": {
+            "x": -200,
+            "y": -100,
+            "z": -1000
+          },
+          "size": 80,
+          "text": "Depan Workshop",
+          "target": "depanworkshop"
+        },
+        {
+          "position": {
+            "x": -1000,
+            "y": -100,
+            "z": 0
+          },
+          "size": 80,
+          "text": "Depan Masjid",
+          "target": "depanmasjid"
+        },
+        {
+          "position": {
+            "x": 0,
+            "y": -100,
+            "z": 1000
+          },
+          "size": 80,
+          "text": "Samping Masjid",
+          "target": "sampingmasjid"
+        }
+      ],
+      "position": 8,
+      "id": 8
+    },
+    {
+      "name": "sampingmasjid",
+      "text": "Samping Masjid",
+      "infospots": [
+        {
+          "position": {
+            "x": 900,
+            "y": -100,
+            "z": -1000
+          },
+          "size": 80,
+          "text": "Masjid",
+          "target": "masjid"
+        },
+        {
+          "position": {
+            "x": 1500,
+            "y": -100,
+            "z": -100
+          },
+          "size": 80,
+          "text": "Kantin",
+          "target": "kantin"
+        },
+        {
+          "position": {
+            "x": -1500,
+            "y": 0,
+            "z": -200
+          },
+          "size": 80,
+          "text": "Samping Gedung",
+          "target": "sampinggedung"
+        }
+      ],
+      "position": 9,
+      "id": 9
+    },
+    {
+      "name": "depanworkshop",
+      "text": "Depan Workshop",
+      "infospots": [
+        {
+          "position": {
+            "x": 900,
+            "y": -100,
+            "z": -200
+          },
+          "size": 80,
+          "text": "Workshop",
+          "target": "workshop"
+        },
+        {
+          "position": {
+            "x": -500,
+            "y": -100,
+            "z": -900
+          },
+          "size": 80,
+          "text": "Depan Masjid",
+          "target": "depanmasjid"
+        },
+        {
+          "position": {
+            "x": -500,
+            "y": -100,
+            "z": 500
+          },
+          "size": 80,
+          "text": "Masjid",
+          "target": "masjid"
+        }
+      ],
+      "position": 10,
+      "id": 10
+    },
+    {
+      "name": "workshop",
+      "text": "Workshop",
+      "infospots": [
+        {
+          "position": {
+            "x": -500,
+            "y": -100,
+            "z": 1000
+          },
+          "size": 80,
+          "text": "Kelas Otomotif",
+          "target": "kelasotomotif"
+        },
+        {
+          "position": {
+            "x": -1000,
+            "y": -100,
+            "z": 200
+          },
+          "size": 80,
+          "text": "Depan Workshop",
+          "target": "depanworkshop"
+        }
+      ],
+      "position": 11,
+      "id": 11
+    },
+    {
+      "name": "kelasotomotif",
+      "text": "Kelas Otomotif",
+      "infospots": [
+        {
+          "position": {
+            "x": -1200,
+            "y": -100,
+            "z": -500
+          },
+          "size": 80,
+          "text": "Workshop",
+          "target": "workshop"
+        }
+      ],
+      "position": 12,
+      "id": 12
+    },
+    {
+      "name": "kantin",
+      "text": "Kantin",
+      "infospots": [
+        {
+          "position": {
+            "x": 0,
+            "y": -100,
+            "z": -1000
+          },
+          "size": 80,
+          "text": "Samping Masjid",
+          "target": "sampingmasjid"
+        }
+      ],
+      "position": 13,
+      "id": 13
+    },
+    {
+      "name": "frontoffice",
+      "text": "Front Office",
+      "infospots": [
+        {
+          "position": {
+            "x": 900,
+            "y": -100,
+            "z": -1000
+          },
+          "size": 80,
+          "text": "Lorong Meeting",
+          "target": "lorongmeeting"
+        }
+      ],
+      "position": 14,
+      "id": 14
+    },
+    {
+      "name": "lorongmeeting",
+      "text": "Lorong Meeting",
+      "infospots": [
+        {
+          "position": {
+            "x": 600,
+            "y": -100,
+            "z": -1000
+          },
+          "size": 80,
+          "text": "Ruang Meeting",
+          "target": "meeting"
+        },{
+          "position": {
+            "x": 0,
+            "y": -100,
+            "z": 1000
+          },
+          "size": 80,
+          "text": "Belakang Gedung",
+          "target": "belakanggedung"
+        },{
+          "position": {
+            "x": 300,
+            "y": -100,
+            "z": 600
+          },
+          "size": 80,
+          "text": "Studio Podcast",
+          "target": "studiopodcast"
+        },{
+          "position": {
+            "x": -800,
+            "y": -100,
+            "z": 700
+          },
+          "size": 80,
+          "text": "Ruang Presenter",
+          "target": "presenter"
+        },{
+          "position": {
+            "x": 4000,
+            "y": -100,
+            "z": 0
+          },
+          "size": 200,
+          "text": "Lorong Marketing",
+          "target": "lorongmarketing"
+        },{
+          "position": {
+            "x": -1600,
+            "y": -250,
+            "z": 0
+          },
+          "size": 80,
+          "text": "Depan Lift",
+          "target": "depanlift"
+        },{
+          "position": {
+            "x": -2000,
+            "y": -250,
+            "z": -500
+          },
+          "size": 100,
+          "text": "Front Office",
+          "target": "frontoffice"
+        }
+      ],
+      "position": 16,
+      "id": 16
+    },
+    {
+      "name": "lorongmarketing",
+      "text": "Lorong Marketing",
+      "infospots": [
+        {
+          "position": {
+            "x": 0,
+            "y": -100,
+            "z": 1000
+          },
+          "size": 80,
+          "text": "Lorong Meeting",
+          "target": "lorongmeeting"
+        }
+      ],
+      "position": 17,
+      "id": 17
+    },
+    {
+      "name": "meeting",
+      "text": "Meeting",
+      "infospots": [
+        {
+          "position": {
+            "x": 900,
+            "y": -100,
+            "z": -1000
+          },
+          "size": 80,
+          "text": "Lorong Meeting",
+          "target": "lorongmeeting"
+        }
+      ],
+      "position": 18,
+      "id": 18
+    },
+    {
+      "name": "presenter",
+      "text": "Presenter",
+      "infospots": [
+        {
+          "position": {
+            "x": -700,
+            "y": -100,
+            "z": 500
+          },
+          "size": 80,
+          "text": "Lorong Meeting",
+          "target": "lorongmeeting"
+        }
+      ],
+      "position": 19,
+      "id": 19
+    },
+    {
+      "name": "studiopodcast",
+      "text": "Studio Podcast",
+      "infospots": [
+        {
+          "position": {
+            "x": 0,
+            "y": -100,
+            "z": 1000
+          },
+          "size": 80,
+          "text": "Studio Foto",
+          "target": "studiofoto"
+        },{
+          "position": {
+            "x": -1000,
+            "y": -100,
+            "z": 50
+          },
+          "size": 80,
+          "text": "Lorong C&P",
+          "target": "lorongcnp"
+        }
+      ],
+      "position": 20,
+      "id": 20
+    },
+    {
+      "name": "studiofoto",
+      "text": "Studio Foto",
+      "infospots": [
+        {
+          "position": {
+            "x": 0,
+            "y": -100,
+            "z": -1000
+          },
+          "size": 80,
+          "text": "Studio Podcast",
+          "target": "studiopodcast"
+        }
+      ],
+      "position": 21,
+      "id": 21
+    },
+    {
+      "name": "depanlift",
+      "text": "Depan Lift",
+      "infospots": [
+        {
+          "position": {
+            "x": 950,
+            "y": -100,
+            "z": -500
+          },
+          "size": 80,
+          "text": "Toilet Bersama",
+          "target": "toiletbersama"
+        }, {
+          "position": {
+            "x": 1500,
+            "y": -100,
+            "z": -200
+          },
+          "size": 150,
+          "text": "Lift",
+          "target": "lift"
+        }, {
+          "position": {
+            "x": 2200,
+            "y": 300,
+            "z": 1000
+          },
+          "size": 150,
+          "text": "Tangga",
+          "target": "tangga"
+        },{
+          "position": {
+            "x": 50,
+            "y": -100,
+            "z": -1000
+          },
+          "size": 80,
+          "text": "Lorong Meeting",
+          "target": "lorongmeeting"
+        },{
+          "position": {
+            "x": 50,
+            "y": -100,
+            "z": 1000
+          },
+          "size": 80,
+          "text": "Samping Gedung",
+          "target": "sampinggedung"
+        }
+      ],
+      "position": 22,
+      "id": 22
+    },
+    {
+      "name": "lift",
+      "text": "Lift",
+      "infospots": [
+        {
+          "position": {
+            "x": 1200,
+            "y": -600,
+            "z": 0
+          },
+          "size": 100,
+          "text": "Lantai 1",
+          "target": "depanlift"
+        },{
+          "position": {
+            "x": 1200,
+            "y": -300,
+            "z": 0
+          },
+          "size": 100,
+          "text": "Lantai 2",
+          "target": "kasir"
+        },{
+          "position": {
+            "x": 1200,
+            "y": 0,
+            "z": 0
+          },
+          "size": 100,
+          "text": "Lantai 3",
+          "target": "lorongtiga"
+        },{
+          "position": {
+            "x": 1200,
+            "y": 300,
+            "z": 0
+          },
+          "size": 100,
+          "text": "Lantai 4",
+          "target": "lorongempat"
+        }
+      ],
+      "position": 23,
+      "id": 23
+    },
+    {
+      "name": "toiletbersama",
+      "text": "Toilet Bersama",
+      "infospots": [
+        {
+          "position": {
+            "x": -1000,
+            "y": -100,
+            "z": -0
+          },
+          "size": 80,
+          "text": "Depan Lift",
+          "target": "depanlift"
+        }
+      ],
+      "position": 24,
+      "id": 24
+    },
+    {
+      "name": "tangga",
+      "text": "Tangga",
+      "infospots": [
+        {
+          "position": {
+            "x": 1000,
+            "y": -800,
+            "z": -100
+          },
+          "size": 80,
+          "text": "Depan Lift",
+          "target": "depanlift"
+        },{
+          "position": {
+            "x": 1000,
+            "y": 300,
+            "z": 0
+          },
+          "size": 100,
+          "text": "Kasir",
+          "target": "kasir"
+        }
+      ],
+      "position": 25,
+      "id": 25
+    },
+    {
+      "name": "kasir",
+      "text": "Kasir",
+      "infospots": [
+        {
+          "position": {
+            "x": -1000,
+            "y": -100,
+            "z": 600
+          },
+          "size": 80,
+          "text": "Lift",
+          "target": "lift"
+        },{
+          "position": {
+            "x": 200,
+            "y": -100,
+            "z": 1000
+          },
+          "size": 80,
+          "text": "Lorong",
+          "target": "lorongdua"
+        },{
+          "position": {
+            "x": -1000,
+            "y": -500,
+            "z": -200
+          },
+          "size": 80,
+          "text": "Tangga",
+          "target": "tangga"
+        }
+      ],
+      "position": 26,
+      "id": 26
+    },
+    {
+      "name": "lorongdua",
+      "text": "Lorong Dua",
+      "infospots": [
+        {
+          "position": {
+            "x": -1000,
+            "y": -100,
+            "z": -1100
+          },
+          "size": 80,
+          "text": "Lift",
+          "target": "lift"
+        },{
+          "position": {
+            "x": 0,
+            "y": -100,
+            "z": -1000
+          },
+          "size": 80,
+          "text": "Kasir",
+          "target": "kasir"
+        },{
+          "position": {
+            "x": 50,
+            "y": 0,
+            "z": 1000
+          },
+          "size": 80,
+          "text": "Aula",
+          "target": "aula"
+        },{
+          "position": {
+            "x": 300,
+            "y": 0,
+            "z": 1000
+          },
+          "size": 80,
+          "text": "Kelas",
+          "target": "kelas"
+        },{
+          "position": {
+            "x": -300,
+            "y": -100,
+            "z": 1000
+          },
+          "size": 80,
+          "text": "Perpustakaan",
+          "target": "perpustakaan"
+        }
+      ],
+      "position": 27,
+      "id": 27
+    },
+    {
+      "name": "lorongperpustakaan",
+      "text": "Lorong Perpustakaan",
+      "infospots": [
+        {
+          "position": {
+            "x": 900,
+            "y": -100,
+            "z": -1000
+          },
+          "size": 80,
+          "text": "",
+          "target": ""
+        }
+      ],
+      "position": 28,
+      "id": 28
+    },
+    {
+      "name": "perpustakaan",
+      "text": "Perpustakaan",
+      "infospots": [
+        {
+          "position": {
+            "x": -800,
+            "y": -100,
+            "z": 1000
+          },
+          "size": 80,
+          "text": "Lorong Dua",
+          "target": "lorongdua"
+        }
+      ],
+      "position": 29,
+      "id": 29
+    },
+    {
+      "name": "kelas",
+      "text": "Kelas",
+      "infospots": [
+        {
+          "position": {
+            "x": 1000,
+            "y": -100,
+            "z": -500
+          },
+          "size": 80,
+          "text": "Lorong Dua",
+          "target": "lorongdua"
+        }
+      ],
+      "position": 30,
+      "id": 30
+    },
+    {
+      "name": "aula",
+      "text": "Aula",
+      "infospots": [
+        {
+          "position": {
+            "x": 0,
+            "y": -100,
+            "z": 1000
+          },
+          "size": 80,
+          "text": "Lorong Dua",
+          "target": "lorongdua"
+        }
+      ],
+      "position": 31,
+      "id": 31
+    },
+    {
+      "name": "lorongtiga",
+      "text": "Lorong Tiga",
+      "infospots": [
+        {
+          "position": {
+            "x": 1000,
+            "y": -100,
+            "z": 900
+          },
+          "size": 80,
+          "text": "Lift",
+          "target": "lift"
+        },{
+          "position": {
+            "x": -1000,
+            "y": -100,
+            "z": 800
+          },
+          "size": 80,
+          "text": "Lab Komputer",
+          "target": "labkomputer"
+        },{
+          "position": {
+            "x": -500,
+            "y": -100,
+            "z": 800
+          },
+          "size": 80,
+          "text": "Rumah Entrepreneur",
+          "target": "rumahentrepreneur"
+        },{
+          "position": {
+            "x": -200,
+            "y": -100,
+            "z": -1000
+          },
+          "size": 80,
+          "text": "Depan Kaprodi",
+          "target": "depankaprodi"
+        }
+      ],
+      "position": 32,
+      "id": 32
+    },
+    {
+      "name": "rumahentrepreneur",
+      "text": "Rumah Entrepreneur",
+      "infospots": [
+        {
+          "position": {
+            "x": 900,
+            "y": 0,
+            "z": -400
+          },
+          "size": 80,
+          "text": "Lorong Tiga",
+          "target": "lorongtiga"
+        }
+      ],
+      "position": 33,
+      "id": 33
+    },
+    {
+      "name": "depankaprodi",
+      "text": "Depan Kaprodi",
+      "infospots": [
+        {
+          "position": {
+            "x": -700,
+            "y": -100,
+            "z": -600
+          },
+          "size": 80,
+          "text": "Lab Komputer",
+          "target": "labkomputer"
+        },{
+          "position": {
+            "x": 0,
+            "y": -100,
+            "z": 1000
+          },
+          "size": 80,
+          "text": "Lorong Tiga",
+          "target": "lorongtiga"
+        }
+      ],
+      "position": 34,
+      "id": 34
+    },
+    {
+      "name": "labkomputer",
+      "text": "Lab Komputer",
+      "infospots": [
+        {
+          "position": {
+            "x": 1000,
+            "y": -100,
+            "z": 700
+          },
+          "size": 80,
+          "text": "Depan Kaprodi",
+          "target": "depankaprodi"
+        }
+      ],
+      "position": 35,
+      "id": 35
+    },
+    {
+      "name": "lorongempat",
+      "text": "Lorong Empat",
+      "infospots": [
+        {
+          "position": {
+            "x": 1000,
+            "y": -100,
+            "z": 800
+          },
+          "size": 80,
+          "text": "Lift",
+          "target": "lift"
+        },{
+          "position": {
+            "x": 1000,
+            "y": -100,
+            "z": -600
+          },
+          "size": 80,
+          "text": "Toilet Pria",
+          "target": "toiletpria"
+        },{
+          "position": {
+            "x": 1000,
+            "y": -100,
+            "z": 300
+          },
+          "size": 80,
+          "text": "Toilet Wanita",
+          "target": "toiletwanita"
+        },{
+          "position": {
+            "x": 400,
+            "y": -100,
+            "z": 1000
+          },
+          "size": 80,
+          "text": "Mushola",
+          "target": "mushola"
+        },{
+          "position": {
+            "x": -500,
+            "y": -100,
+            "z": 1000
+          },
+          "size": 80,
+          "text": "Mini Bank",
+          "target": "minibank"
+        },{
+          "position": {
+            "x": 0,
+            "y": -100,
+            "z": -1000
+          },
+          "size": 80,
+          "text": "Lorong TUK",
+          "target": "lorongtuk"
+        }
+      ],
+      "position": 36,
+      "id": 36
+    },
+    {
+      "name": "lorongtuk",
+      "text": "Lorong TUK",
+      "infospots": [
+        {
+          "position": {
+            "x": -900,
+            "y": -100,
+            "z": 400
+          },
+          "size": 80,
+          "text": "Kelas Akuntansi",
+          "target": "kelasakuntansi"
+        }
+      ],
+      "position": 37,
+      "id": 37
+    },
+    {
+      "name": "mushola",
+      "text": "Mushola",
+      "infospots": [
+        {
+          "position": {
+            "x": 500,
+            "y": -100,
+            "z": -800
+          },
+          "size": 80,
+          "text": "Lorong Empat",
+          "target": "lorongempat"
+        }
+      ],
+      "position": 38,
+      "id": 38
+    },
+    {
+      "name": "minibank",
+      "text": "Mini Bank",
+      "infospots": [
+        {
+          "position": {
+            "x": -800,
+            "y": -100,
+            "z": 350
+          },
+          "size": 80,
+          "text": "Lorong Empat",
+          "target": "lorongempat"
+        }
+      ],
+      "position": 39,
+      "id": 39
+    },
+    {
+      "name": "kelasakuntansi",
+      "text": "Kelas Akuntansi",
+      "infospots": [
+        {
+          "position": {
+            "x": 900,
+            "y": -100,
+            "z": 600
+          },
+          "size": 80,
+          "text": "Lorong Empat",
+          "target": "lorongempat"
+        }
+      ],
+      "position": 40,
+      "id": 40
+    },
+    {
+      "name": "toiletpria",
+      "text": "Toilet Pria",
+      "infospots": [
+        {
+          "position": {
+            "x": 0,
+            "y": -100,
+            "z": 1000
+          },
+          "size": 80,
+          "text": "Lorong Empat",
+          "target": "lorongempat"
+        }
+      ],
+      "position": 41,
+      "id": 41
+    },
+    {
+      "name": "toiletwanita",
+      "text": "Toilet Wanita",
+      "infospots": [
+        {
+          "position": {
+            "x": 0,
+            "y": -100,
+            "z": -1000
+          },
+          "size": 80,
+          "text": "Lorong Empat",
+          "target": "lorongempat"
+        }
+      ],
+      "position": 42,
+      "id": 42
+    },
+    {
+      "name": "lorongcnp",
+      "text": "Lorong C&P",
+      "infospots": [
+        {
+          "position": {
+            "x": -1200,
+            "y": -100,
+            "z": 0
+          },
+          "size": 80,
+          "text": "Belakang Gedung",
+          "target": "belakanggedung"
+        },{
+          "position": {
+            "x": 1000,
+            "y": -100,
+            "z": 600
+          },
+          "size": 80,
+          "text": "Studio Podcast",
+          "target": "studiopodcast"
+        },{
+          "position": {
+            "x": 1000,
+            "y": -100,
+            "z": 0
+          },
+          "size": 80,
+          "text": "Lorong Meeting",
+          "target": "lorongmeeting"
+        }
+      ],
+      "position": 43,
+      "id": 43
+    }
+  ]
+}

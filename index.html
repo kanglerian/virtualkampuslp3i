@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <style>
+        html,
+        body {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="absolute m-3">
+        <button id="toggleSidebar" onclick="showSidebar()"
+            class="bg-sky-500 border-b-4 border-sky-700 hover:bg-sky-600 px-4 py-1 rounded text-sm text-white">Daftar
+            Tempat</button>
+    </div>
+    <div id="sidebar"
+        class="fixed transition -translate-x-full duration-300 bg-white top-0 left-0 z-40 h-screen  overflow-y-auto w-80 p-5 text-sm border-e-4 border-sky-300">
+        <div class="flex justify-between items-center gap-2">
+            <a href="http://politekniklp3i-tasikmalaya.ac.id/"><img src="./icons/lp3i.svg" class="w-40"
+                    alt="Politeknik LP3I Kampus Tasikmalaya"></a>
+            <button onclick="showSidebar()"
+                class="block h-7 w-7 bg-gray-100 text-gray-700 rounded hover:bg-red-500 hover:text-white"><i
+                    class="fa-solid fa-xmark"></i></button>
+        </div>
+        <hr class="my-4">
+        <ul id="results"></ul>
+        <hr class="my-4">
+        <footer class="text-center">
+            <p class="text-xs text-gray-500">Copyright © 2023 Politeknik LP3I Kampus Tasikmalaya</p>
+        </footer>
+    </div>
+    <div id="panorama"></div>
+    <script src="./js/three.min.js"></script>
+    <script src="./js/panolens.min.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script>
+        const viewer = new PANOLENS.Viewer();
+        var buckets = [];
+        var panoramas = [];
+        const getPanoramas = async () => {
+            await fetch('./resources/database.json')
+                .then((response) => response.json())
+                .then((data) => {
+                    let result = data.panoramas.sort((a, b) => a.position - b.position);
+                    panoramas = result;
+                })
+                .catch((error) => console.log(error));
+            let results = '';
+            panoramas.forEach((panorama, i) => {
+                results += `
+                        <li onclick="changePanorama('${panorama.name}')" class="block hover:bg-sky-600 hover:-translate-y-1 hover:scale-105 transition-all ease-in-out duration-500 hover:text-white pl-2 pr-4 py-1 rounded cursor-pointer">${panorama.text}</li>
+                    `
+            })
+            document.getElementById('results').innerHTML = results;
+            panoramas.forEach((panorama, i) => {
+                let objectBucket = {};
+                let name = panorama.name;
+                objectBucket.panorama = panorama.name = new PANOLENS.ImagePanorama(`photo/${panorama.name}.jpg`);
+                objectBucket.panorama.name = name;
+                objectBucket.name = name;
+                let infospots = [];
+                panorama.infospots.forEach((info, i) => {
+                    infospots.push(new PANOLENS.Infospot(info.size, 'icons/location.png'));
+                    infospots[i].position.set(info.position.x, info.position.y, info.position.z);
+                    infospots[i].addHoverText(info.text);
+                    infospots[i].addEventListener('click', () => {
+                        let location = buckets.find((loc) => {
+                            return loc.name === info.target;
+                        });
+                        viewer.setPanorama(location.panorama);
+                    });
+                });
+                objectBucket.infospots = infospots;
+                buckets.push(objectBucket);
+                buckets.forEach((bucket) => {
+                    bucket.infospots.forEach((info) => {
+                        bucket.panorama.add(info);
+                    })
+                })
+            });
+
+            buckets.forEach((bucket) => {
+                viewer.add(bucket.panorama);
+            })
+
+        }
+        const changePanorama = (text) => {
+            let location = buckets.find((loc) => {
+                return loc.name === text;
+            });
+            location.infospots.forEach((inf) => {
+                location.panorama.add(inf);
+            });
+            viewer.setPanorama(location.panorama);
+        }
+
+        getPanoramas();
+
+        let showDrawer = false;
+        let sidebar = document.getElementById('sidebar');
+        const showSidebar = () => {
+            showDrawer = !showDrawer;
+            if (showDrawer) {
+                sidebar.classList.remove("-translate-x-full");
+                sidebar.classList.add("translate-x-0");
+            } else {
+                sidebar.classList.remove("translate-x-0");
+                sidebar.classList.add("-translate-x-full");
+            }
+        }
+        document.addEventListener("click", function (event) {
+            let element = event.target.id;
+            if(element !== 'toggleSidebar'){
+                sidebar.classList.remove("translate-x-0");
+                sidebar.classList.add("-translate-x-full");
+            }else{
+                sidebar.classList.remove("-translate-x-full");
+                sidebar.classList.add("translate-x-0");
+            }
+        });
+    </script>
+</body>
+
+</html>
