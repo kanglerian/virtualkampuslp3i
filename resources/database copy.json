@@ -156,6 +156,16 @@
       "infospots": [
         {
           "position": {
+            "x": -900,
+            "y": -100,
+            "z": -100
+          },
+          "size": 80,
+          "text": "Depan Workshop",
+          "target": "depanworkshop"
+        },
+        {
+          "position": {
             "x": -200,
             "y": -100,
             "z": -1000
@@ -182,6 +192,16 @@
       "name": "depanmasjid",
       "text": "Depan Masjid",
       "infospots": [
+        {
+          "position": {
+            "x": 1000,
+            "y": -100,
+            "z": -800
+          },
+          "size": 80,
+          "text": "Depan Workshop",
+          "target": "depanworkshop"
+        },
         {
           "position": {
             "x": 0,
@@ -230,6 +250,16 @@
       "name": "masjid",
       "text": "Masjid",
       "infospots": [
+        {
+          "position": {
+            "x": -200,
+            "y": -100,
+            "z": -1000
+          },
+          "size": 80,
+          "text": "Depan Workshop",
+          "target": "depanworkshop"
+        },
         {
           "position": {
             "x": -1000,
@@ -293,9 +323,86 @@
       "id": 9
     },
     {
+      "name": "depanworkshop",
+      "text": "Depan Workshop",
+      "infospots": [
+        {
+          "position": {
+            "x": 900,
+            "y": -100,
+            "z": -200
+          },
+          "size": 80,
+          "text": "Workshop",
+          "target": "workshop"
+        },
+        {
+          "position": {
+            "x": -500,
+            "y": -100,
+            "z": -900
+          },
+          "size": 80,
+          "text": "Depan Masjid",
+          "target": "depanmasjid"
+        },
+        {
+          "position": {
+            "x": -500,
+            "y": -100,
+            "z": 500
+          },
+          "size": 80,
+          "text": "Masjid",
+          "target": "masjid"
+        }
+      ],
+      "position": 10,
+      "id": 10
+    },
+    {
+      "name": "workshop",
+      "text": "Workshop",
+      "infospots": [
+        {
+          "position": {
+            "x": -500,
+            "y": -100,
+            "z": 1000
+          },
+          "size": 80,
+          "text": "Kelas Otomotif",
+          "target": "kelasotomotif"
+        },
+        {
+          "position": {
+            "x": -1000,
+            "y": -100,
+            "z": 200
+          },
+          "size": 80,
+          "text": "Depan Workshop",
+          "target": "depanworkshop"
+        }
+      ],
+      "position": 11,
+      "id": 11
+    },
+    {
       "name": "kelasotomotif",
       "text": "Kelas Otomotif",
-      "infospots": [],
+      "infospots": [
+        {
+          "position": {
+            "x": -1200,
+            "y": -100,
+            "z": -500
+          },
+          "size": 80,
+          "text": "Workshop",
+          "target": "workshop"
+        }
+      ],
       "position": 12,
       "id": 12
     },
